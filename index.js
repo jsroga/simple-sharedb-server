@@ -6,7 +6,7 @@ const share = new ShareDB()
 
 function createServer () {
   const ws = new WebSocket.Server({
-    port: 9515
+    port: process.env.PORT || 9515
   })
   ws.on('connection', (ws, req) => {
     share.listen(new WebSocketJSONStream(ws))
