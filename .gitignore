@@ -1,0 +1,14 @@
+.brackets.json
+.idea
+.map
+.sass-cache
+.tmp
+.vscode
+.wast
+*.env
+*.iml
+*.orig
+dist
+node_modules
+npm-debug.log
+temp
